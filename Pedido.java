@@ -9,9 +9,9 @@ public class Pedido {
         sobremesa.setTamanho("Medio");
         bebida.setML(250);
 
-        System.out.println("Gramas: " + burger.getGramas());
-        System.out.println("Tamanho: " + sobremesa.getTamanho());
-        System.out.println("Gramas: " + bebida.getML());
+        System.out.println("Gramas Burger: " + burger.getGramas());
+        System.out.println("Tamanho Sobremesa: " + sobremesa.getTamanho());
+        System.out.println("Ml da bebida: " + bebida.getML());
     }
 
     public void Super_Combo(){
@@ -20,8 +20,8 @@ public class Pedido {
         sobremesa.setTamanho("Grande");
         bebida.setML(600);
 
-        System.out.println("Gramas: " + burger.getGramas());
-        System.out.println("Tamanho: " + sobremesa.getTamanho());
-        System.out.println("Gramas: " + bebida.getML());
+        System.out.println("Gramas Burger: " + burger.getGramas());
+        System.out.println("Tamanho Sobremesa: " + sobremesa.getTamanho());
+        System.out.println("Ml da bebida: " + bebida.getML());
     }
 }
